@@ -4,7 +4,13 @@ const myBoxes = document.getElementsByClassName('block');
 
 // The Functionality
 function loopThrough(){
-  console.log(this);
+
+  const changeColor = () => this.classList.toggle('new-color');
+
+  for(let i=0, i < this.textContent.length, i++){
+
+  };
+
 };
 
 
